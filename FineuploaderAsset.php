@@ -13,7 +13,7 @@ namespace parpe\fineuploader;
  */
 class FineuploaderAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@toxor88/fineuploader/assets';
+    public $sourcePath = '@parpe/fineuploader/assets';
     public $js = [
         'fine-uploader/fine-uploader.min.js'
     ];

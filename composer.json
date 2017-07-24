@@ -1,13 +1,13 @@
 {
-    "name": "toxor88/yii2-widget-fineuploader",
+    "name": "parpe/yii2-widget-fineuploader",
     "description": "Enhanced Yii2 wrapper for the Fineuploader.js plugin.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","fineuploader"],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Steven Cash",
-            "email": "toxor88@gmail.com"
+            "name": "Parpe",
+            "email": "admin@parpe.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "toxor88\\fineuploader\\": ""
+            "parpe\\fineuploader\\": ""
         }
     }
 }

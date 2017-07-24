@@ -4,7 +4,7 @@
  * @copyright: Cash Design
  */
 
-namespace toxor88\fineuploader;
+namespace parpe\fineuploader;
 
 /**
  * Class FineuploaderJqueryAsset

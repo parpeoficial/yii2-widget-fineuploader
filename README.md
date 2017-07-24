@@ -1,6 +1,6 @@
 Enhanced Yii2 wrapper for the Fineuploader.js plugin
 ====================================================
-See <https://github.com/FineUploader/fine-uploader>.
+See <https://github.com/parpeoficial/yii2-widget-fineuploader>.
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist toxor88/yii2-widget-fineuploader "*"
+php composer.phar require --prefer-dist parpe/yii2-widget-fineuploader "*"
 ```
 
 or add
 
 ```
-"toxor88/yii2-widget-fineuploader": "*"
+"parpe/yii2-widget-fineuploader": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,7 +28,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \toxor88\fineuploader\Fineuploader::widget([
+<?= \parpe\fineuploader\Fineuploader::widget([
         // by default it uses the jQuery wrapper for the library, if you want the native one, use this:
         'jQuery' => false,
         'clientOptions' => [
